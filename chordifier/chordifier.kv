@@ -1,0 +1,31 @@
+#:kivy 1.0
+#:import kivy kivy
+
+<AudioBackground>:
+    orientation: 'vertical'
+    canvas:
+        Color:
+            rgb: 1, 1, 1
+        Rectangle:
+            source: 'data/images/background.jpg'
+            size: self.size
+
+    Label:
+        id: song_name        
+        pos: (0, 1000)
+        size_hint: 1, None
+        text: 'The Middle'
+        font_size: 22        
+        
+
+    RelativeLayout:
+        id: mel_spec
+        pos: (0, 120)
+        size: (0, 900)
+        size_hint: 1, None
+        canvas:
+            Color:
+                rgb: 1, 1, 1
+            Rectangle:
+                size: self.size
+
