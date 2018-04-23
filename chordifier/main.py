@@ -112,7 +112,7 @@ class ChordifierApp(App):
         root = AudioBackground()
 
         filename = "M:\songs\Zedd Maren Morris Grey-The Middle.wav"
-        filename = "M:\songs\\'N Sync-God Must Have Spent a Little More Time on You.wav"
+        filename = "C:\Cinch Solutions\Cinch Audio Recorder\wav\Zedd Maren Morris Grey-The Middle.wav"
 
 
         root.ids.song_name.title = 'God Must Have Spent a Little More Time on You'
